@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    width: 1200px;
+    
+}
+
+.img{
+    background-image: url(onecard_logo.png);
+    background-size: cover;
+    height: 100%;
+    width: 80px;
+}
+
+.nav_anchors{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 80px;
+}
+.header_button{
+    background-color: #1893F7;
+    font-size: 14px;
+    margin: 0px 55.5px 0px 16px;
+    padding: 4px 8px;
+    color: white;
+    
+}
+
+.hero_section{
+    height: 800px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.left_part{
+    height: 500px;
+    width: 500px;
+    padding: 0px 20px;
+}
+.right_part{
+    height: 500px;
+    width: 500px;
+    padding: 0px 20px;
+    
+}
+
+.right_part video{
+    height: 500px;
+    width: 500px;
+}
+p .apple_logo {
+    padding-left: 10px;
+}
+p .Playstore_logo {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.p1{
+    font-size: 28.8px;
+    font-weight: 600;
+}
+.p2{
+    font-size: 57.6px;
+    color: #1893f7;
+}
+.p3{
+    font-size: 18px;
+    color: #1893f7;
+    padding: 8px 0px;
+}
+.banks{
+    height: 65.97px;
+    width: 355px;
+}
+.text{
+    font-size: 18px;
+    padding: 24px 0px 0px;
+    height: 100px;
+}
+.hero_button{
+    background-color: #1893F7;
+    color: white;
+}
