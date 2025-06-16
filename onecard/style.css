@@ -2,20 +2,24 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
-.container{
-    max-width: 1050px;
-    margin: 0 auto;
-    
-}
+
 .navbar{
-    display: flex;
-    height: 80px;
-    width: 1050px;
+    width: 100%;
+    background-color: white;
     position: fixed;
     top: 0;
-    background-color: white;
-    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 .img{
@@ -49,6 +53,10 @@
     padding: 4px 8px;
     color: white;
     
+}
+
+main {
+    width: 100%;
 }
 
 /* hero_section */
@@ -113,15 +121,18 @@ p .Playstore_logo {
     border-radius: 10%;
 }
 
+/* fee section */
+
 .fees{
     height: 517px;
-    width: ;
     background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 .head{
@@ -177,28 +188,33 @@ p .Playstore_logo {
 /* metalsection */
 
 .metalsection{
-    padding: 50px 0px;
-    height: 510px;
+    height: 558px;
+    padding: 48px 0px 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: rgba(231, 231, 231, 0.471);
-    
 }
 
 .metalvideo video{
-    height: 510px;
-    width: 510px;
+    width: 540px;
+    height: 460px;
+    padding: 0px 15px;
 }
-
 .metal{
     font-size: 64px;
     margin-top: 30px;
 }
 .metal_left{
     padding: 0px 20px;
+    width: 540px;
+    height: 394px;
 }
+
 .metalvideo{
     padding: 0px 20px;
+    width: 540px;
+    height: 394px;
 }
 
 .metalmatter{
@@ -450,4 +466,75 @@ footer h3{
 footer h3 {
     margin: 20px;
 
+}
+
+
+@media (max-width: 768px){
+    .hero_section, .powerfullmobileapp, .metalsection, .OC_seamless_onboarding, .rewardsection, .emisection, .familysection, .{
+        
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left_part,
+  .right_part,
+  .powerfullmobileapp_right,
+  .powerfullmobileapp_video,
+  .metal_left,
+  .metalvideo,
+  .OC_seamless_onboarding_video,
+  .OC_seamless_onboarding_right,
+  .rewardsection_left,
+  .rewardsection_video,
+  .emisection_right,
+  .emisection_video,
+  .familysection_left,
+  .familysection_video {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    justify-content: center;
+    font-size: 1px;
+  }
+
+  
+  .right_part video,
+  .powerfullmobileapp video,
+  .metalvideo video,
+  .OC_seamless_onboarding video,
+  .rewardsection video,
+  .emisection video,
+  .familysection video {
+    width: 100%;
+    height: auto;
+  }
+
+   .banks {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav_anchors {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .nav_anchors a,
+  .header_button {
+    padding: 5px 10px;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .img {
+    margin-bottom: 10px;
+  }
 }

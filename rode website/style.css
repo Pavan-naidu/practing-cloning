@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+.navbarcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-weight:bolder;
+    font-size: 40px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    color: black;
+    padding: 0px 80px;
+
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+main{ 
+    margin: 0px auto;
+    padding-top: 80px;
+    background-color: aliceblue;
+}
+
+/* .hero_section_1 */
+
+.hero_section_1, .hero_section_2, .hero_section_3, .hero_section_4, .hero_section_5, .hero_section_6, .hero_section_7 {
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_right{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    margin-left: 700px;
+    width: 600px;   
+}
+.content_left {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    margin-right: 600px;
+    width: 600px;   
+}
+
+.content_right h2{
+    font-size: 28px;
+    margin: 20px 0px;
+    color: white;
+}
+
+.content_left h2{
+    font-size: 28px;
+    margin: 20px 0px;
+    color: black;
+}
+
+.content_right p{
+    font-size: 20px;
+    color: #ffffff80;
+    margin-bottom: 30px;
+}
+
+.content_left p{
+    font-size: 20px;
+    color: #00000080;
+    margin-bottom: 30px;
+}
+
+.content_right button{
+    border: 1px solid white;
+    border-radius: 50rem;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    height: 54px ;
+    width: 200px;
+}
+
+.content_left button{
+    border: 1px solid white;
+    border-radius: 50rem;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 54px ;
+    width: 200px;
+}
+
+.hero_section_1 img, .hero_section_2 img, .hero_section_3 img, .hero_section_4 img, .hero_section_5 img, .hero_section_6 img, .hero_section_7 img {
+    height: 80px;
+    width: 550px;
+}
+
+.hero_section_1 {
+    background-image: url(hero_1_bg_img);
+    background-color: black;
+    
+}
+.hero_section_2 {
+    background-image: url(hero_2_bg_img);
+    background-color: white;
+}
+.hero_section_3 {
+    background-image: url(hero_3_bg_img);
+    background-color: black;
+}
+.hero_section_4 {
+    background-image: url(hero_4_bg_img);
+    background-color: black;
+}
+.hero_section_5 {
+    background-image: url(hero_5_bg_img);
+    background-color: black;
+}
+.hero_section_6 {
+    background-image: url(hero_6_bg_img);
+    background-color: white;
+}
+.hero_section_7 {
+    background-image: url(hero_7_bg_img);
+    background-color: black;
+}
+
+.hero_section_7 h2, .hero_section_5 h2{
+    color: white;
+}
+
+ .hero_section_7 p, .hero_section_5 p {
+    color: #ffffff80;
+ }
+
+ .hero_section_7 button, .hero_section_5 button{
+    border: 1px solid white;
+    border-radius: 50rem;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    height: 54px ;
+    width: 200px;
+ }
+ 
+.hero_section_2 button:hover {
+    background-color: white;
+    color: black;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button{
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.latest{
+    font-size: 32px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.latest a{
+    color: black;
+    font-weight: bold; 
+
+}
+
+.grid{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid1, .grid2, .grid3, .grid4{
+    height: 800px;
+    width: 538px;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.grid1 h3, .grid2 h3, .grid3 h3, .grid4 h3{
+    font-size: 28px;
+}
+
+.grid1 p, .grid2 p, .grid3 p, .grid4 p{
+    font-size: 16px;
+    margin: 16px 0px;
+    padding: 16px;
+}
+
+.grid1 img, .grid2 img, .grid3 img, .grid4 img{
+    height: 538px;
+    width: 538px;
+}
+
+.grid button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 6px 22px;
+    border-radius: 50rem;
+}
+
+.grid button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer a{
+    color: #9c9c9c;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer{
+    display: flex;
+    margin: 0px 65.2px;
+    padding: 48px 15px;
+    justify-content:space-around;
+}
+
+.Products, .services, .company, .subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h1{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.subscribe{
+    text-align: right;
+    font-weight: 20px;
+    margin: 0px 0px 16px 70px;
+}
+.subscribe button{
+    background-color: white; 
+    color: black;
+    font-size: 16px;
+    padding: 6px 22px;
+    border-radius: 50rem;
+}
+
+.subscribe button:hover{
+    background-color: black;
+    color: white;
+}
