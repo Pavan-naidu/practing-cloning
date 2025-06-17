@@ -16,8 +16,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 14px 50px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .logo{
@@ -64,7 +62,7 @@ main{
     flex-direction: column;
     align-items:center;
     text-align: center;
-    margin-left: 700px;
+    margin-left: 550px;
     width: 600px;   
 }
 .content_left {
@@ -72,7 +70,7 @@ main{
     flex-direction: column;
     align-items:center;
     text-align: center;
-    margin-right: 600px;
+    margin-right: 450px;
     width: 600px;   
 }
 
@@ -291,4 +289,89 @@ footer h1{
 .subscribe button:hover{
     background-color: black;
     color: white;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+}
+
+/* responsiveness */
+
+@media (max-width: 1120px) {
+  .container{
+    display:none;
+  }
+
+  .hamburger{
+    display: block;
+    position: absolute;
+    right: 0px;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .hero_section_1{
+    background-image: url(./responsiveness/hero_bg_img_1.jpg);
+    background-color: black;
+  }
+  .hero_section_2 {
+    background-image: url(./responsiveness/hero_bg_img_2.jpg);
+    background-color: white;
+}
+.hero_section_3 {
+    background-image: url(./responsiveness/hero_bg_img_3.jpg);
+    background-color: black;
+}
+.hero_section_4 {
+    background-image: url(./responsiveness/hero_bg_img_4.jpg);
+    background-color: black;
+}
+.hero_section_5 {
+    background-image: url(./responsiveness/hero_bg_img_5.jpg);
+    background-color: black;
+}
+.hero_section_6 {
+    background-image: url(./responsiveness/hero_bg_img_6.jpg);
+    background-color: black;
+}
+.hero_section_7 {
+    background-image: url(./responsiveness/hero_bg_img_7.jpg);
+    background-color: black;
+
+}
+
+.hero_section_1, .hero_section_2, .hero_section_3, .hero_section_4, .hero_section_5, .hero_section_6, .hero_section_7 {
+    height: 1020px;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.content_right{
+    margin: 20px 0px;
+}
+.content_left{
+    margin: 20px 0px;
+}
+
+.hero_section_1 img, .hero_section_2 img, .hero_section_3 img, .hero_section_4 img, .hero_section_5 img, .hero_section_6 img, .hero_section_7 img {
+    width: 700px
+}
+
+main{
+    padding-top: 10px;
+}
+.content_left h2, .content_right h2{
+    margin: 15px 0px;
+}
+
+
+
+
 }
